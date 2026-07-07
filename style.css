@@ -1869,14 +1869,14 @@ Hero
 -------------------------*/
 
 .hero{
-    padding-top:190px;
-    padding-bottom:90px;
+    padding-top:140px;
+    padding-bottom:70px;
 }
 
 .hero-grid{
     display:flex;
     flex-direction:column-reverse;
-    gap:55px;
+    gap:40px;
 }
 
 .hero-content{
@@ -1885,42 +1885,51 @@ Hero
 }
 
 .hero h1{
-    font-size:56px;
-    line-height:1;
-    margin-bottom:26px;
+    font-size:48px;
+    line-height:1.08;
+    margin-bottom:22px;
+    letter-spacing:-1px;
 }
 
 .hero-text{
-    margin:0 auto 40px;
-    max-width:95%;
+    margin:0 auto 34px;
+    max-width:92%;
+    font-size:19px;
+    line-height:1.7;
 }
 
 .hero-buttons{
+    display:flex;
     justify-content:center;
+    align-items:center;
+    gap:14px;
+    flex-wrap:wrap;
 }
 
 .hero-image img{
+    width:100%;
     height:auto;
-    border-radius:28px;
+    border-radius:32px;
 }
-
 
 /*------------------------
 Metodo
 -------------------------*/
 
+.method{
+    overflow:hidden;
+}
+
 .method-grid{
-
     display:flex;
+    gap:20px;
     overflow-x:auto;
-    gap:24px;
-
+    overflow-y:hidden;
+    padding:8px 6px 20px;
+    margin-top:45px;
     scroll-snap-type:x mandatory;
-
-    padding-bottom:18px;
-
+    scroll-padding-left:6px;
     -webkit-overflow-scrolling:touch;
-
 }
 
 .method-grid::-webkit-scrollbar{
@@ -1928,11 +1937,27 @@ Metodo
 }
 
 .method-card{
+    flex:0 0 88%;
+    padding:34px 28px;
+    border-radius:26px;
+    scroll-snap-align:start;
+}
 
-    flex:0 0 84%;
+.method-number{
+    width:52px;
+    height:52px;
+    margin-bottom:22px;
+}
 
-    scroll-snap-align:center;
+.method-card h3{
+    font-size:32px;
+    margin-bottom:14px;
+}
 
+.method-card p{
+    font-size:17px;
+    line-height:1.75;
+}
 }
 
 
@@ -1940,27 +1965,67 @@ Metodo
 Collezione
 -------------------------*/
 
-.launch-grid{
+.coming-soon{
+    margin-top:90px;
+    padding-top:55px;
+}
+
+.coming-header{
+    margin-bottom:40px;
+}
+
+.coming-header h2{
+    font-size:40px;
+    line-height:1.1;
+}
+
+.coming-grid{
 
     display:flex;
 
-    flex-direction:column;
+    overflow-x:auto;
 
-    gap:45px;
+    gap:18px;
+
+    padding:10px 4px 20px;
+
+    scroll-snap-type:x mandatory;
+
+    scroll-padding-left:4px;
+
+    -webkit-overflow-scrolling:touch;
 
 }
 
-.launch-content{
+.coming-grid::-webkit-scrollbar{
+    display:none;
+}
+
+.coming-card{
+
+    flex:0 0 72%;
+
+    scroll-snap-align:start;
+
+    border-radius:26px;
+
+    padding:16px;
+
+}
+
+.coming-card img{
+
+    border-radius:20px;
+
+    margin-bottom:18px;
+
+}
+
+.coming-card h4{
+
+    font-size:22px;
 
     text-align:center;
-
-    max-width:100%;
-
-}
-
-.launch-content h3{
-
-    font-size:46px;
 
 }
 
@@ -2003,38 +2068,46 @@ Chi siamo
 -------------------------*/
 
 .about-grid{
-
     display:flex;
-
     flex-direction:column;
-
-    gap:50px;
-
+    gap:36px;
+    align-items:center;
 }
 
 .about-image{
-
-    order:-1;
-
+    width:100%;
 }
 
 .about-image img{
-
+    width:100%;
     height:auto;
-
-    border-radius:30px;
-
+    border-radius:32px;
+    display:block;
 }
 
 .about-content{
-
-    max-width:100%;
-
-    text-align:center;
-
+    width:100%;
+    text-align:left;
 }
 
+.about-content .eyebrow{
+    text-align:left;
+    margin-bottom:14px;
+}
 
+.about-content .section-title{
+    margin-bottom:22px;
+}
+
+.about-content .section-text{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:18px;
+}
+
+.about-content .button{
+    margin-top:18px;
+}
 /*------------------------
 Newsletter
 -------------------------*/

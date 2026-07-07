@@ -353,45 +353,7 @@ PULSANTE HEADER
 
 }
 
-/*==================================================
-CTA
-==================================================*/
 
-.header-button{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    padding:15px 28px;
-
-    border-radius:999px;
-
-    background:var(--green);
-
-    color:white;
-
-    font-size:15px;
-
-    font-weight:500;
-
-    white-space:nowrap;
-
-    transition:.35s;
-
-    box-shadow:0 12px 30px rgba(165,177,156,.25);
-
-}
-
-.header-button:hover{
-
-    background:var(--green-dark);
-
-    transform:translateY(-3px);
-
-}
 
 /*==================================================
 07 • BOTTONI
@@ -713,15 +675,8 @@ CTA
 }
 
 
-/*==================================================
-13 • COLLEZIONE
-==================================================*/
 
-.collection{
 
-    background:var(--background);
-
-}
 
 /*==================================================
 COLLEZIONE
@@ -1708,7 +1663,7 @@ color:#5f5f5f;
 .ebook-hero{
     padding:70px 0;
 }
-.logo{
+.footer.logo{
     font-size:48px;
 }
 /* ===========================================
@@ -1865,4 +1820,289 @@ html{
     letter-spacing:0.22em;
     color:var(--green);
     font-weight:600;
+}
+@media (max-width:768px){
+
+/*------------------------
+Container
+-------------------------*/
+
+.container{
+    width:92%;
+}
+
+
+/*------------------------
+Header
+-------------------------*/
+
+.header .container{
+    padding:18px 0;
+}
+
+.logo{
+    font-size:38px;
+    letter-spacing:3px;
+    margin-bottom:16px;
+}
+
+.nav-row{
+    flex-direction:column;
+    gap:18px;
+    padding-bottom:0;
+    border:none;
+}
+
+.menu{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:22px;
+}
+
+.menu a{
+    font-size:15px;
+}
+
+
+/*------------------------
+Hero
+-------------------------*/
+
+.hero{
+    padding-top:190px;
+    padding-bottom:90px;
+}
+
+.hero-grid{
+    display:flex;
+    flex-direction:column-reverse;
+    gap:55px;
+}
+
+.hero-content{
+    text-align:center;
+    max-width:100%;
+}
+
+.hero h1{
+    font-size:56px;
+    line-height:1;
+    margin-bottom:26px;
+}
+
+.hero-text{
+    margin:0 auto 40px;
+    max-width:95%;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.hero-image img{
+    height:auto;
+    border-radius:28px;
+}
+
+
+/*------------------------
+Metodo
+-------------------------*/
+
+.method-grid{
+
+    display:flex;
+    overflow-x:auto;
+    gap:24px;
+
+    scroll-snap-type:x mandatory;
+
+    padding-bottom:18px;
+
+    -webkit-overflow-scrolling:touch;
+
+}
+
+.method-grid::-webkit-scrollbar{
+    display:none;
+}
+
+.method-card{
+
+    flex:0 0 84%;
+
+    scroll-snap-align:center;
+
+}
+
+
+/*------------------------
+Collezione
+-------------------------*/
+
+.launch-grid{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:45px;
+
+}
+
+.launch-content{
+
+    text-align:center;
+
+    max-width:100%;
+
+}
+
+.launch-content h3{
+
+    font-size:46px;
+
+}
+
+
+/*------------------------
+Volumi futuri
+-------------------------*/
+
+.coming-grid{
+
+    display:flex;
+
+    overflow-x:auto;
+
+    gap:22px;
+
+    padding-bottom:18px;
+
+    scroll-snap-type:x mandatory;
+
+    -webkit-overflow-scrolling:touch;
+
+}
+
+.coming-grid::-webkit-scrollbar{
+    display:none;
+}
+
+.coming-card{
+
+    flex:0 0 72%;
+
+    scroll-snap-align:center;
+
+}
+
+
+/*------------------------
+Chi siamo
+-------------------------*/
+
+.about-grid{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:50px;
+
+}
+
+.about-image{
+
+    order:-1;
+
+}
+
+.about-image img{
+
+    height:auto;
+
+    border-radius:30px;
+
+}
+
+.about-content{
+
+    max-width:100%;
+
+    text-align:center;
+
+}
+
+
+/*------------------------
+Newsletter
+-------------------------*/
+
+.newsletter-form{
+
+    flex-direction:column;
+
+    gap:15px;
+
+    border-radius:28px;
+
+}
+
+.newsletter-form input{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.newsletter-form button{
+
+    width:100%;
+
+}
+
+
+/*------------------------
+Footer
+-------------------------*/
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:45px;
+
+    text-align:center;
+
+}
+
+
+/*------------------------
+Titoli
+-------------------------*/
+
+h2{
+
+    font-size:44px;
+
+}
+
+.section-title{
+
+    margin-bottom:28px;
+
+}
+
+p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
 }

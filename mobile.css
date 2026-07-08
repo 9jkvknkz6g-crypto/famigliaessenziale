@@ -1,0 +1,543 @@
+/* ==========================================
+   MOBILE - ESSENZIALE
+========================================== */
+
+@media (max-width:768px){
+
+/* ==========================================
+   LAYOUT
+========================================== */
+
+.container{
+    width:92%;
+    max-width:100%;
+}
+
+section{
+    padding:80px 0;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.header .container{
+    padding:18px 0 14px;
+}
+
+.logo{
+    font-size:42px;
+    text-align:center;
+    margin-bottom:18px;
+    letter-spacing:3px;
+}
+
+.nav-row{
+    display:flex;
+    justify-content:center;
+    border:none;
+    padding-bottom:0;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:18px;
+}
+
+.menu a{
+    font-size:15px;
+}
+
+.header-button{
+    display:none;
+}/* ==========================================
+   HERO
+========================================== */
+
+.hero{
+    padding:60px 0;
+}
+
+.hero-grid{
+    display:flex;
+    flex-direction:column-reverse;
+    gap:36px;
+}
+
+.hero-content{
+    max-width:100%;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:52px;
+    line-height:0.95;
+    margin-bottom:20px;
+}
+
+.hero-text{
+    font-size:20px;
+    line-height:1.7;
+    margin:24px 0 36px;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.hero-buttons .button,
+.hero-buttons .button-outline{
+    width:100%;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:30px;
+}/* ==========================================
+   IL METODO
+========================================== */
+
+.method{
+    overflow:hidden;
+}
+
+.method-grid{
+    display:flex;
+    overflow-x:auto;
+    gap:20px;
+    padding:8px 4px 20px;
+    margin-top:40px;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+}
+
+.method-grid::-webkit-scrollbar{
+    display:none;
+}
+
+.method-card{
+    flex:0 0 85%;
+    scroll-snap-align:start;
+    padding:34px 28px;
+    border-radius:28px;
+}
+
+.method-number{
+    width:56px;
+    height:56px;
+    margin-bottom:24px;
+}
+
+.method-card h3{
+    font-size:34px;
+    margin-bottom:16px;
+}
+
+.method-card p{
+    font-size:18px;
+    line-height:1.75;
+}/* ==========================================
+   PRIMO VOLUME
+========================================== */
+
+.volume{
+    padding:90px 0;
+}
+
+.volume-grid{
+    display:flex;
+    flex-direction:column;
+    gap:42px;
+    align-items:center;
+}
+
+.volume-image{
+    width:78%;
+    margin:0 auto;
+}
+
+.volume-image img{
+    width:100%;
+    display:block;
+}
+
+.volume-content{
+    width:100%;
+    text-align:center;
+}
+
+.volume-content .eyebrow{
+    justify-content:center;
+}
+
+.volume-content h2{
+    font-size:52px;
+    line-height:1.05;
+    margin:22px 0;
+}
+
+.volume-content p{
+    font-size:19px;
+    line-height:1.8;
+    max-width:92%;
+    margin:0 auto 34px;
+}
+
+.volume-content .button{
+    width:100%;
+    justify-content:center;
+}/* ==========================================
+   PROSSIMAMENTE
+========================================== */
+
+.coming-soon{
+    margin-top:90px;
+    padding-top:60px;
+}
+
+.coming-header{
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.coming-header h2{
+    font-size:42px;
+    line-height:1.1;
+}
+
+.coming-header p{
+    font-size:13px;
+    letter-spacing:3px;
+}
+
+.coming-grid{
+    display:flex;
+    overflow-x:auto;
+    gap:20px;
+    padding:10px 6px 20px;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+}
+
+.coming-grid::-webkit-scrollbar{
+    display:none;
+}
+
+.coming-card{
+    flex:0 0 72%;
+    scroll-snap-align:center;
+    border-radius:26px;
+    padding:18px;
+}
+
+.coming-card img{
+    border-radius:20px;
+    margin-bottom:18px;
+}
+
+.coming-card h4{
+    font-size:24px;
+    text-align:center;
+}/* ==========================================
+   CHI SIAMO
+========================================== */
+
+.about{
+    padding:90px 0;
+}
+
+.about-grid{
+    display:flex;
+    flex-direction:column;
+    gap:42px;
+    align-items:center;
+}
+
+.about-image{
+    width:100%;
+}
+
+.about-image img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:28px;
+}
+
+.about-content{
+    width:100%;
+    max-width:100%;
+    text-align:left;
+}
+
+.about-content .section-title{
+    font-size:48px;
+    line-height:1.1;
+    margin-bottom:24px;
+}
+
+.about-content .section-text{
+    font-size:18px;
+    line-height:1.85;
+    margin-bottom:20px;
+}
+
+.about-content .button{
+    width:100%;
+    justify-content:center;
+    margin-top:12px;
+}/* ==========================================
+   NEWSLETTER + FOOTER
+========================================== */
+
+.newsletter{
+    padding:90px 0;
+}
+
+.newsletter-content{
+    width:100%;
+}
+
+.newsletter .section-title{
+    font-size:46px;
+    line-height:1.1;
+    margin-bottom:22px;
+}
+
+.newsletter .section-text{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:34px;
+}
+
+.newsletter-form{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    background:transparent;
+    border:none;
+    box-shadow:none;
+    padding:0;
+}
+
+.newsletter-form input{
+    width:100%;
+    padding:18px;
+    border:1px solid var(--border);
+    border-radius:999px;
+    text-align:center;
+    background:#fff;
+}
+
+.newsletter-form button{
+    width:100%;
+    padding:18px;
+    border-radius:999px;
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer{
+    padding:70px 0 40px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:38px;
+    text-align:center;
+}
+
+.footer .logo{
+    font-size:40px;
+    margin-bottom:14px;
+}
+
+.footer h4{
+    margin-bottom:14px;
+}
+
+.footer li{
+    margin-bottom:10px;
+}
+
+.copyright{
+    margin-top:40px;
+    font-size:13px;
+}/* ==========================================
+   RIFINITURE FINALI
+========================================== */
+
+/* Titoli */
+
+h2{
+    font-size:44px;
+    line-height:1.08;
+}
+
+.section-title{
+    margin-bottom:24px;
+}
+
+.section-text{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* Pulsanti */
+
+.button,
+.button-outline{
+    min-height:56px;
+    font-size:16px;
+}
+
+/* Prima copertina */
+
+.launch-image{
+    text-align:center;
+}
+
+.launch-image img{
+    width:78%;
+    max-width:340px;
+    margin:0 auto;
+}
+
+.launch-content{
+    text-align:center;
+}
+
+.launch-content h3{
+    font-size:46px;
+    line-height:1.05;
+}
+
+.launch-content p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+/* Effetto card */
+
+.method-card,
+.coming-card{
+    box-shadow:0 20px 45px rgba(0,0,0,.06);
+}
+
+/* Scroll morbido */
+
+.method-grid,
+.coming-grid{
+    scroll-behavior:smooth;
+}
+
+/* Ultima sezione */
+
+footer{
+    margin-bottom:20px;
+}/* HERO PREMIUM */
+
+.hero{
+    padding-top:85px;
+    padding-bottom:90px;
+}
+
+.hero h1{
+    font-size:60px;
+    line-height:.92;
+    letter-spacing:-1px;
+}
+
+.hero-text{
+    max-width:92%;
+    margin:30px auto 42px;
+}
+
+.hero-image img{
+    border-radius:34px;
+    box-shadow:0 28px 70px rgba(0,0,0,.12);
+}
+/* PRIMO QUADERNO */
+
+.launch-image img{
+
+    width:86%;
+    max-width:380px;
+
+}
+
+.launch-content h3{
+
+    font-size:54px;
+
+}
+
+.launch-content p{
+
+    font-size:19px;
+
+    max-width:95%;
+
+    margin:auto auto 34px;
+
+}
+.coming-card{
+
+    flex:0 0 78%;
+
+    border-radius:30px;
+
+}
+
+.coming-card img{
+
+    border-radius:24px;
+
+}
+ .about{
+
+    padding:110px 0;
+
+}
+
+.about-image img{
+
+    border-radius:34px;
+
+}
+
+.about-content{
+
+    margin-top:10px;
+
+}
+ .newsletter-form input{
+
+    height:58px;
+
+    font-size:17px;
+
+}
+
+.newsletter-form button{
+
+    height:58px;
+
+}
+section{
+
+    padding:95px 0;
+
+}

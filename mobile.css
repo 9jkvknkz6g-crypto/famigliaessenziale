@@ -90,9 +90,15 @@ section{
 }
 
 .hero-buttons .button,
-.hero-buttons .button-outline{
+.hero-buttons .button-outline,
+.hero-buttons .secondary{
     width:100%;
+    display:flex;
     justify-content:center;
+    align-items:center;
+    color:#2f3a2f;
+    font-size:16px;
+    font-weight:600;
 }
 
 .hero-image img{
@@ -631,6 +637,7 @@ section{
     width:100%;
     max-width:300px;
     justify-content:center;
+}
 }/* =====================================================
    SALDI ESSENZIALI • COSA TROVERAI
 ===================================================== */

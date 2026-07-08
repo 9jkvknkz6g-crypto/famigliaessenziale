@@ -143,57 +143,57 @@ section{
 .method-card p{
     font-size:18px;
     line-height:1.75;
-}/* ==========================================
-   PRIMO VOLUME
-========================================== */
+}/* ===== PRIMO VOLUME ===== */
 
-.volume{
-    padding:90px 0;
-}
-
-.volume-grid{
+.collection-grid{
     display:flex;
     flex-direction:column;
-    gap:42px;
+    gap:50px;
     align-items:center;
 }
 
-.volume-image{
-    width:78%;
-    margin:0 auto;
-}
-
-.volume-image img{
-    width:100%;
-    display:block;
-}
-
-.volume-content{
-    width:100%;
+.collection-content{
+    max-width:100%;
     text-align:center;
 }
 
-.volume-content .eyebrow{
-    justify-content:center;
-}
-
-.volume-content h2{
-    font-size:52px;
+.collection-content .section-title{
+    font-size:56px;
     line-height:1.05;
-    margin:22px 0;
+    margin-bottom:28px;
 }
 
-.volume-content p{
-    font-size:19px;
+.collection-content p{
+    font-size:20px;
     line-height:1.8;
-    max-width:92%;
-    margin:0 auto 34px;
+    margin-bottom:36px;
 }
 
-.volume-content .button{
+.book-cover{
+    width:78%;
+    max-width:300px;
+    margin:0 auto;
+}
+
+.book-cover img{
     width:100%;
-    justify-content:center;
-}/* ==========================================
+    height:auto;
+    display:block;
+}
+
+.book-badge{
+    display:inline-flex;
+    padding:10px 24px;
+    border-radius:999px;
+    font-size:14px;
+    margin-bottom:22px;
+}
+
+.book-info{
+    text-align:center;
+}
+
+/* ==========================================
    PROSSIMAMENTE
 ========================================== */
 
@@ -409,22 +409,22 @@ h2{
 }
 
 .launch-image img{
-    width:78%;
-    max-width:340px;
+    width:72%;
+    max-width:290px;
     margin:0 auto;
+    display:block;
 }
-
 .launch-content{
     text-align:center;
 }
 
 .launch-content h3{
-    font-size:46px;
+    font: size 52px;px;
     line-height:1.05;
 }
 
 .launch-content p{
-    font-size:18px;
+    font: size 20px;
     line-height:1.8;
     margin-bottom:30px;
 }

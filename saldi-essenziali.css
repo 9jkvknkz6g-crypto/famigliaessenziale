@@ -1,0 +1,699 @@
+/* =====================================================
+   SALDI ESSENZIALI
+   CSS DEDICATO
+===================================================== */
+
+
+/* =========================
+   HERO
+========================= */
+
+.ebook-hero{
+
+    padding:220px 0 130px;
+
+}
+
+.ebook-grid{
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    gap:90px;
+
+    align-items:center;
+
+}
+
+.ebook-content{
+
+    max-width:620px;
+
+}
+
+.ebook-content h1{
+
+    font-size:84px;
+
+    line-height:.95;
+
+    margin:18px 0 28px;
+
+}
+
+.ebook-subtitle{
+
+    font-size:22px;
+
+    line-height:1.85;
+
+    color:#666;
+
+    margin-bottom:45px;
+
+}
+
+.ebook-cover{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+}
+
+.ebook-cover img{
+
+    width:100%;
+
+    max-width:460px;
+
+    border-radius:26px;
+
+    box-shadow:0 35px 90px rgba(0,0,0,.10);
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.button.secondary{
+
+    background:#fff;
+
+    color:#3F3934;
+
+    border:1px solid #DDD4C7;
+
+}
+
+.button.secondary:hover{
+
+    background:#F7F5F2;
+
+}/* =====================================================
+   COSA TROVERAI
+===================================================== */
+
+.features{
+
+    padding:120px 0;
+
+}
+
+.features .section-title{
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+    text-align:center;
+
+}
+
+.features .section-title h2{
+
+    font-size:60px;
+
+    margin-bottom:18px;
+
+}
+
+.features .section-title p{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+.features-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:32px;
+
+}
+
+.feature{
+
+    background:#fff;
+
+    padding:42px;
+
+    border-radius:28px;
+
+    border:1px solid #ECE5DB;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.05);
+
+    transition:.35s;
+
+}
+
+.feature:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 28px 60px rgba(0,0,0,.08);
+
+}
+
+.feature h3{
+
+    font-size:30px;
+
+    margin-bottom:18px;
+
+    color:#3F3934;
+
+}
+
+.feature p{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#666;
+
+}/* =====================================================
+   SFOGLIA UN'ANTEPRIMA
+===================================================== */
+
+.preview{
+
+    padding:120px 0;
+
+    background:#FCFAF7;
+
+}
+
+.preview .section-title{
+
+    text-align:center;
+
+    max-width:760px;
+
+    margin:0 auto 70px;
+
+}
+
+.preview .section-title h2{
+
+    font-size:60px;
+
+    margin-bottom:18px;
+
+}
+
+.preview .section-title p{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+.preview-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:34px;
+
+    align-items:start;
+
+}
+
+.preview-grid img{
+
+    width:100%;
+
+    border-radius:22px;
+
+    box-shadow:0 20px 55px rgba(0,0,0,.08);
+
+    transition:transform .35s ease, box-shadow .35s ease;
+
+    cursor:pointer;
+
+}
+
+.preview-grid img:hover{
+
+    transform:translateY(-10px) scale(1.02);
+
+    box-shadow:0 35px 70px rgba(0,0,0,.14);
+
+}
+/* =====================================================
+   ACQUISTA IL QUADERNO
+===================================================== */
+
+.product-details{
+
+    padding:120px 0;
+
+    background:#F8F5EF;
+
+}
+
+.product-box{
+
+    max-width:980px;
+
+    margin:0 auto;
+
+    background:#fff;
+
+    border-radius:30px;
+
+    padding:70px;
+
+    text-align:center;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.06);
+
+}
+
+.product-box h2{
+
+    font-size:60px;
+
+    margin-bottom:22px;
+
+}
+
+.product-box p{
+
+    max-width:720px;
+
+    margin:0 auto;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#666;
+
+}
+
+.product-list{
+
+    list-style:none;
+
+    margin:50px 0;
+
+    padding:0;
+
+}
+
+.product-list li{
+
+    padding:14px 0;
+
+    font-size:20px;
+
+    color:#4b4b4b;
+
+    border-bottom:1px solid #ECE7DF;
+
+}
+
+.product-list li:last-child{
+
+    border-bottom:none;
+
+}
+
+.product-price{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:72px;
+
+    color:#2F4F3E;
+
+    margin:35px 0;
+
+}
+
+.product-box .button{
+
+    padding:20px 46px;
+
+    font-size:18px;
+
+}/* =====================================================
+   DA UNA FAMIGLIA ALL'ALTRA
+===================================================== */
+
+.story{
+
+    padding:120px 0;
+
+    background:#FCFAF7;
+
+}
+
+.story .container{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+}
+
+.story .section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.story .section-title h2{
+
+    font-size:60px;
+
+    margin-bottom:18px;
+
+}
+
+.story .section-title p{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+.story-content{
+
+    background:#fff;
+
+    padding:60px;
+
+    border-radius:30px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.06);
+
+}
+
+.story-content p{
+
+    font-size:20px;
+
+    line-height:2;
+
+    color:#5F5B57;
+
+    margin-bottom:28px;
+
+}
+
+.story-content p:last-child{
+
+    margin-bottom:0;
+
+}/* =====================================================
+   FAQ
+===================================================== */
+
+.faq{
+
+    padding:120px 0;
+
+    background:#FFFFFF;
+
+}
+
+.faq .container{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+}
+
+.faq .section-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.faq .section-title h2{
+
+    font-size:60px;
+
+    margin-bottom:18px;
+
+}
+
+.faq .section-title p{
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+.faq-item{
+
+    background:#FCFAF7;
+
+    border:1px solid #ECE5DB;
+
+    border-radius:22px;
+
+    padding:34px 38px;
+
+    margin-bottom:24px;
+
+    transition:.3s ease;
+
+}
+
+.faq-item:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 18px 45px rgba(0,0,0,.05);
+
+}
+
+.faq-item h3{
+
+    font-size:28px;
+
+    margin-bottom:16px;
+
+    color:#3F3934;
+
+}
+
+.faq-item p{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#666;
+
+}/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+/* ---------- Tablet ---------- */
+
+@media (max-width:1024px){
+
+    .ebook-grid{
+        grid-template-columns:1fr;
+        gap:70px;
+        text-align:center;
+    }
+
+    .ebook-content{
+        max-width:100%;
+    }
+
+    .ebook-cover{
+        justify-content:center;
+    }
+
+    .ebook-cover img{
+        max-width:420px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .features-grid{
+        grid-template-columns:1fr;
+    }
+
+    .preview-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .product-box{
+        padding:50px;
+    }
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:768px){
+
+    .ebook-hero{
+        padding:130px 0 80px;
+    }
+
+    .ebook-grid{
+        grid-template-columns:1fr;
+        gap:45px;
+    }
+
+    .ebook-cover{
+        order:-1;
+    }
+
+    .ebook-cover img{
+        max-width:320px;
+    }
+
+    .ebook-content h1{
+        font-size:56px;
+        line-height:1;
+        text-align:center;
+    }
+
+    .ebook-subtitle{
+        font-size:19px;
+        text-align:center;
+        margin-bottom:36px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+        gap:16px;
+    }
+
+    .hero-buttons .button{
+        width:100%;
+        max-width:320px;
+        justify-content:center;
+    }
+
+    .features{
+        padding:90px 0;
+    }
+
+    .features .section-title h2,
+    .preview .section-title h2,
+    .product-box h2,
+    .story .section-title h2,
+    .faq .section-title h2{
+
+        font-size:42px;
+
+    }
+
+    .features-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .feature{
+        padding:30px;
+    }
+
+    .preview-grid{
+
+        display:flex;
+        overflow-x:auto;
+        gap:18px;
+        scroll-snap-type:x mandatory;
+        padding-bottom:12px;
+
+    }
+
+    .preview-grid::-webkit-scrollbar{
+        display:none;
+    }
+
+    .preview-grid img{
+
+        flex:0 0 82%;
+        scroll-snap-align:center;
+
+    }
+
+    .product-box{
+
+        padding:36px 26px;
+
+    }
+
+    .product-price{
+
+        font-size:56px;
+
+    }
+
+    .story{
+
+        padding:90px 0;
+
+    }
+
+    .story-content{
+
+        padding:34px 26px;
+
+    }
+
+    .story-content p{
+
+        font-size:18px;
+
+    }
+
+    .faq{
+
+        padding:90px 0;
+
+    }
+
+    .faq-item{
+
+        padding:26px;
+
+    }
+
+}

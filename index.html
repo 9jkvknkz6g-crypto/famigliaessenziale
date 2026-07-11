@@ -469,19 +469,26 @@ NEWSLETTER
 
         </p>
 
-        <form class="newsletter-form">
+       <form
+    id="newsletter-form"
+    class="newsletter-form">
 
-            <input
-                type="email"
-                placeholder="La tua email">
+    <input
+        id="newsletter-email"
+        type="email"
+        name="email_address"
+        placeholder="La tua email"
+        required>
 
-            <button type="submit">
+    <button type="submit">
+        Ricevi le lettere
+    </button>
 
-                Iscriviti
+</form>
 
-            </button>
+<p id="newsletter-message"></p>
 
-        </form>
+    
 
     </div>
 
@@ -565,6 +572,7 @@ FOOTER
 </footer>
 
 <script src="script.js"></script>
+
 
 </body>
 

@@ -1866,3 +1866,11 @@ html{
     color:var(--green);
     font-weight:600;
 }
+
+/* Foto Kit newsletter */
+.ck_form img,
+.formkit-form img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
